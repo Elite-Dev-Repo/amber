@@ -40,7 +40,8 @@ function Header() {
 
   return (
     <MotionSection id="home" className="w-screen min-h-screen mt-9">
-      <header className="cont w-full h-full flex flex-col justify-center items-center gap-6">
+      <header className="cont w-full h-full flex flex-col justify-center items-center gap-6 relative">
+        <div className="w-90 h-90 blur-2xl rounded-full bg-secondary/10 absolute left-0 top-10"></div>
         <motion.div
           variants={itemVariants}
           className="flex max-w-full items-center gap-3 justify-between text-xs sm:text-sm border border-foreground/40 rounded-full"

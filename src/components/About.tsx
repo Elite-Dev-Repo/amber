@@ -79,7 +79,7 @@ function About() {
 
       <motion.div
         variants={itemVariants}
-        className="bg-foreground flex items-center justify-center min-h-[42vh] rounded-3xl mt-9 p-6 sm:p-10"
+        className="bg-secondary flex items-center justify-center min-h-[42vh] rounded-3xl mt-9 p-6 sm:p-10"
       >
         <div className="grid grid-cols-2 md:grid-cols-4 items-center place-items-center gap-3">
           {texts.map((text) => (

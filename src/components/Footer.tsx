@@ -56,7 +56,7 @@ const Footer = () => {
               <p className="text-sm font-semibold text-foreground/50">
                 Start a conversation
               </p>
-              <p className="text-lg font-bold">oyenekantomiwa2@gmail.com</p>
+              <p className="text-md font-bold">oyenekantomiwa2@gmail.com</p>
             </div>
             <span className="grid size-12 shrink-0 place-items-center rounded-full bg-secondary text-background">
               <HugeiconsIcon icon={TelegramIcon} size={20} strokeWidth={2} />

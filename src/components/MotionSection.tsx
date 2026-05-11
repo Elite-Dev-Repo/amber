@@ -4,7 +4,7 @@ import type { HTMLMotionProps, Variants } from "framer-motion";
 const sectionVariants: Variants = {
   hidden: {
     opacity: 0,
-    y: 72,
+    y: 15,
     scale: 0.96,
     filter: "blur(12px)",
   },

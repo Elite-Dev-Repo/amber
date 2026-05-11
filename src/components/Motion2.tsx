@@ -3,7 +3,7 @@ import type { Variants } from "framer-motion";
 export const itemVariants: Variants = {
   hidden: {
     opacity: 0,
-    y: 34,
+    y: 10,
     scale: 0.94,
   },
   visible: {

@@ -3,10 +3,10 @@ import type { HTMLMotionProps, Variants } from "framer-motion";
 
 const sectionVariants: Variants = {
   hidden: {
-    opacity: 0,
-    y: 0,
-    scale: 0.96,
-    filter: "blur(12px)",
+    opacity: 1,
+    y: 28,
+    scale: 0.98,
+    filter: "blur(0px)",
   },
   visible: {
     opacity: 1,
@@ -30,7 +30,7 @@ const MotionSection = ({ children, ...props }: MotionSectionProps) => {
       variants={sectionVariants}
       initial="hidden"
       whileInView="visible"
-      viewport={{ once: false, amount: 0.22, margin: "-80px" }}
+      viewport={{ once: true, amount: 0.22, margin: "-80px" }}
       {...props}
     >
       {children}

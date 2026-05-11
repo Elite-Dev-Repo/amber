@@ -1,5 +1,4 @@
-import { motion } from "framer-motion";
-import type { HTMLMotionProps, Variants } from "framer-motion";
+import type { Variants } from "framer-motion";
 
 export const itemVariants: Variants = {
   hidden: {

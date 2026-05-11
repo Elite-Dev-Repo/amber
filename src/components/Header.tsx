@@ -40,7 +40,12 @@ function Header() {
   ];
 
   return (
-    <MotionSection id="home" className="w-screen min-h-screen md:mt-9 mt-3">
+    <MotionSection
+      id="home"
+      initial="hidden"
+      animate="visible"
+      className="w-screen min-h-screen md:mt-9 mt-3"
+    >
       <header className="cont w-full h-full flex flex-col justify-center items-center gap-6 relative">
         <div className="w-90 h-90 blur-2xl rounded-full bg-secondary/10 absolute left-0 top-10"></div>
         <motion.div

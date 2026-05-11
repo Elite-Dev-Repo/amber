@@ -1,0 +1,13 @@
+{
+  id: "amber",
+  image: amber,
+  title: "Amber",
+  description:
+    "A modern frontend landing page for an AI-assisted ticket management product. Amber presents a polished workflow for organizing tickets, collaborating with teams, tracking progress, and turning event or project requests into clear, manageable systems.",
+  techs: ["React.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+  link: "https://lemur-devs.vercel.app/",
+  label: "Frontend",
+  git: "https://github.com/Elite-Dev-Repo/LemurFrontend",
+  howIMadeIt:
+    "I built Amber as a frontend-focused product experience using React, TypeScript, Tailwind CSS, and Framer Motion. I structured the interface into reusable sections for the hero, workflow cards, about content, process steps, FAQs, and footer, keeping the messaging centered on ticket organization, collaboration, automation, and tracking. I used responsive layouts, animated section reveals, hover interactions, custom illustrations, and consistent visual patterns to make the page feel like a real SaaS product while staying smooth across desktop and mobile screens.",
+},

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import MotionSection, { itemVariants } from "./MotionSection";
+import MotionSection from "./MotionSection";
+import { itemVariants } from "./Motion2";
 
 function Howwework() {
   const texts = [

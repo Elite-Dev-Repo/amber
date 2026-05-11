@@ -8,8 +8,9 @@ import { motion } from "framer-motion";
 import collab from "../assets/collab.svg";
 import track from "../assets/track.svg";
 import organize from "../assets/organize.svg";
-import MotionSection, { itemVariants } from "./MotionSection";
 
+import MotionSection from "./MotionSection";
+import { itemVariants } from "./Motion2";
 function Header() {
   const Cards = [
     {
@@ -39,7 +40,7 @@ function Header() {
   ];
 
   return (
-    <MotionSection id="home" className="w-screen min-h-screen mt-9">
+    <MotionSection id="home" className="w-screen min-h-screen md:mt-9 mt-3">
       <header className="cont w-full h-full flex flex-col justify-center items-center gap-6 relative">
         <div className="w-90 h-90 blur-2xl rounded-full bg-secondary/10 absolute left-0 top-10"></div>
         <motion.div
@@ -47,7 +48,7 @@ function Header() {
           className="flex max-w-full items-center gap-3 justify-between text-xs sm:text-sm border border-foreground/40 rounded-full"
         >
           <div className="bg-foreground text-background px-3 py-1 rounded-full ">
-            <p className="flex items-center gap-1">
+            <p className="flex items-center gap-1 text-[10px]">
               Just In{" "}
               <HugeiconsIcon
                 icon={FolderShared01Icon}
@@ -57,7 +58,7 @@ function Header() {
             </p>
           </div>
           <div className="pr-3">
-            <p className="font-semibold">
+            <p className="font-semibold text-[10px]">
               A ticket system that works like an Organiser.
             </p>
           </div>

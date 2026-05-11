@@ -8,7 +8,8 @@ import {
   TelegramIcon,
 } from "@hugeicons/core-free-icons";
 import { motion } from "framer-motion";
-import MotionSection, { itemVariants } from "./MotionSection";
+import MotionSection from "./MotionSection";
+import { itemVariants } from "./Motion2";
 
 const Footer = () => {
   const footerLinks = [

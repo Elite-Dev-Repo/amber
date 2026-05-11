@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import about from "../assets/about.jpg";
-import MotionSection, { itemVariants } from "./MotionSection";
+import MotionSection from "./MotionSection";
+import { itemVariants } from "./Motion2";
 
 function About() {
   const texts = [

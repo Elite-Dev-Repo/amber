@@ -3,7 +3,8 @@ import { AnimatePresence, motion } from "framer-motion";
 import faq from "../assets/faq.jpg";
 import { HugeiconsIcon } from "@hugeicons/react";
 import { Add01Icon, MinusSignIcon } from "@hugeicons/core-free-icons";
-import MotionSection, { itemVariants } from "./MotionSection";
+import MotionSection from "./MotionSection";
+import { itemVariants } from "./Motion2";
 
 const FAQs = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(0);

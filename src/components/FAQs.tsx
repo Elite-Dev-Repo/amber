@@ -12,8 +12,12 @@ const FAQs = () => {
   const toggleAccordion = (index: number) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
+  interface FAQinterface {
+    question: string;
+    answer: string;
+  }
 
-  const faqItems = [
+  const faqItems: FAQinterface[] = [
     {
       question: "What is Amber exactly?",
       answer:

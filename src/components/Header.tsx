@@ -12,7 +12,15 @@ import organize from "../assets/organize.svg";
 import MotionSection from "./MotionSection";
 import { itemVariants } from "./Motion2";
 function Header() {
-  const Cards = [
+  interface Cardinterface {
+    title: string;
+    step: string;
+    description: string;
+    illustration: string;
+    rotate: string;
+  }
+
+  const Cards: Cardinterface[] = [
     {
       title: "Organize",
       step: "Step 1",
@@ -72,7 +80,7 @@ function Header() {
           variants={itemVariants}
           className="flex flex-col gap-6 items-center justify-center"
         >
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-medium text-center leading-snug">
+          <h1 className="text-4xl sm:text-4xl md:text-5xl font-medium text-center leading-snug">
             Transform your tickets
             <br />
             into organized{" "}
@@ -110,7 +118,7 @@ function Header() {
               whileHover={{ y: -10, rotate: 0, scale: 1.03 }}
               className={`flex flex-col items-start gap-4 p-5 border-2 shadow-2xl border-white rounded-4xl mt-6 sm:mt-10 ${card.rotate}`}
             >
-              <img src={card.illustration} alt={card.title} className="w-40" />
+              <img src={card.illustration} alt={card.title} className="mx-auto w-40" />
               <h2 className="text-xl font-semibold opacity-50">{card.step}</h2>
               <h3 className="text-lg font-bold">{card.title}</h3>
               <p className="text-sm text-foreground/70 font-medium">

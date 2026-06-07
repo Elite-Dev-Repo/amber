@@ -19,7 +19,7 @@ function Nav() {
         initial={{ opacity: 0, y: -28, scale: 0.96 }}
         animate={{ opacity: 1, y: 0, scale: 1 }}
         transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
-        className="sticky top-5 z-[100] flex w-[92%] md:w-[65%] mt-5 bg-white/80 backdrop-blur rounded-full min-h-15 shadow-lg mx-auto justify-between md:justify-around items-center gap-4 md:gap-12 px-5 md:px-0"
+        className="sticky top-5 z-[100] flex w-[92%] md:w-[65%] mt-5 bg-white/20 backdrop-blur rounded-sm border border-foreground/10 min-h-15 shadow-sm mx-auto justify-between md:justify-around items-center gap-4 md:gap-12 px-5 md:px-0"
       >
         <a href="#home">
           <h1 className="font-bold text-2xl tracking-widest ">
@@ -40,7 +40,7 @@ function Nav() {
           ))}
         </ul>
 
-        <button className="hidden md:block bg-primary text-primary-foreground hover:bg-primary/90 px-4 py-2 rounded-full font-semibold">
+        <button className="hidden md:block bg-primary text-sm text-primary-foreground hover:bg-primary/90 px-4 py-2 rounded-lg font-semibold">
           Get Started
         </button>
 

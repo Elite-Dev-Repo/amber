@@ -84,7 +84,7 @@ function Header() {
             Transform your tickets
             <br />
             into organized{" "}
-            <span className="inline-block text-secondary bg-secondary/10 px-4 sm:px-5 rounded-full border border-secondary/40">
+            <span className="inline-block text-secondary bg-secondary/10 px-4 sm:px-5 rounded-sm border border-secondary/40">
               workflows
             </span>
           </h1>
